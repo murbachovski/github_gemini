@@ -9,8 +9,12 @@ from rich import box
 from termcolor import colored
 import pyfiglet
 from datetime import datetime
+import os
 
 console = Console()
+
+GENAI_API_KEY = os.getenv("GENAI_API_KEY")
+client = genai.Client(api_key=GENAI_API_KEY)
 
 # ==============================
 # 1️⃣ 터미널 제목 표시
@@ -51,8 +55,6 @@ console.print(table)
 # 4️⃣ Gemini 분석
 # ==============================
 console.print("[bold yellow]\n▶ Gemini 분석 시작...[/bold yellow]")
-GENAI_API_KEY = ""
-client = genai.Client(api_key=GENAI_API_KEY)
 
 data_records = df.to_dict(orient="records")
 
