@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ./run.sh
 ```
 
-# 웹 구성
+# 웹 구성(터미널 실행)
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fd94db63-3fab-4d28-84a0-cb9bbe6e81da" width="700">
   <img src="https://github.com/user-attachments/assets/0f9d8a61-aaf3-4ff6-a94f-fd6ea061cf35" width="700">
