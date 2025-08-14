@@ -1,22 +1,21 @@
 # 프로젝트 제목
 ```
-YoutubeGemini — 유튜브 영상 AI 분석 서비스
+GithubGemini 
 ```
 
 # 프로젝트 설명
 ```
-YoutubeGemini는 유튜브 영상 URL과 질문을 입력하면,
-Google Gemini AI로 영상을 분석해 자연어 답변을 제공하는 웹 서비스
+GithubAPI를 통해서 별점이 높은 repositories 목록 10개를 가져와 Gemini를 통해서 분석
 ```
 
 # 가상환경 설정
 ```
-conda create -n gem_tube python=3.9
+conda create -n arg python=3.9
 ```
 
 # API_KEY 설정
 ```
-export GENAI_API_KEY="AIzaSyDxxxxxxxxxxxxxxxxxxxx"
+export GENAI_API_KEY=""
 ```
 
 # 라이브러리 설치
